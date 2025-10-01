@@ -35,3 +35,21 @@ void ChooseColor_float(float3 Highlight, float3 Midtone, float3 Shadow, float Di
         OUT = Highlight;
     }
 }
+
+void InterpolateColor_float(float3 Highlight, float3 Midtone, float3 Shadow, float Diffuse, float Threshold1, float Threshold2, out float3 OUT)
+{
+    if (Diffuse < Threshold1)
+    {
+        OUT = Shadow;
+    }
+    else if (Diffuse < Threshold2)
+    {
+        float t = (Diffuse - Threshold1) / (Threshold2 - Threshold1);
+        OUT = lerp(Shadow, Midtone, t);
+    }
+    else
+    {
+        float t = (Diffuse - Threshold2) / (1.0 - Threshold2);
+        OUT = lerp(Midtone, Highlight, t);
+    }
+}

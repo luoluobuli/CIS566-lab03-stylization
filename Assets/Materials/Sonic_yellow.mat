@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Sonic_yellow
-  m_Shader: {fileID: -6465566751694194690, guid: c6aa7fe2d57109446a7e1f7bb3d4ad11,
+  m_Shader: {fileID: -6465566751694194690, guid: 20421e3b55ea0a641bbc941074c7a0fe,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -143,7 +143,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _Threshold: 0.89
-    - _Threshold1: 0.3
+    - _Threshold1: 0.1
     - _Threshold2: 0.7
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -152,7 +152,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Highlight: {r: 1, g: 0.9425233, b: 0.56037736, a: 0}
-    - _Midtone: {r: 0.8490566, g: 0.7647877, b: 0.25151297, a: 0}
+    - _Midtone: {r: 0.9528302, g: 0.86156523, b: 0.48899963, a: 1}
     - _Shadow: {r: 0.8784314, g: 0.7741764, b: 0.40784314, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Ground_white
-  m_Shader: {fileID: -6465566751694194690, guid: c6aa7fe2d57109446a7e1f7bb3d4ad11,
+  m_Shader: {fileID: -6465566751694194690, guid: 9d07692b816e9f944a4cc88e8bf56d82,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -143,8 +143,8 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _Threshold: 0.73
-    - _Threshold1: 0.4
-    - _Threshold2: 0.6
+    - _Threshold1: 0.1
+    - _Threshold2: 0.5
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -152,7 +152,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Highlight: {r: 1, g: 1, b: 1, a: 0}
-    - _Midtone: {r: 1, g: 1, b: 1, a: 0}
-    - _Shadow: {r: 1, g: 1, b: 1, a: 0}
+    - _Midtone: {r: 1, g: 1, b: 1, a: 1}
+    - _Shadow: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
